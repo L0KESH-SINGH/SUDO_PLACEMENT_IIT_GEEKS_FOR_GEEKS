@@ -15,19 +15,19 @@ public class immediatesmallerelement {
             for(int j=0 ; j<size ; j++)
             {
                 arr[j] = s.nextInt() ;
-                if(j!=0)
+            }
+            for(int x=0 ; x<size-1 ; x++)
+            {
+                if(arr[x+1]<arr[x])
                 {
-                    if(arr[i]<arr[i-1])
-                    {
-                        System.out.print(arr[i]);
-                    }
-                    else
-                    {
-                        System.out.print(-1);
-                    }
+                    System.out.println(arr[x+1]);
+                }
+                else
+                {
+                    System.out.println(-1);
                 }
             }
-            System.out.println();
+            System.out.println(-1);
         }
     }
 }
