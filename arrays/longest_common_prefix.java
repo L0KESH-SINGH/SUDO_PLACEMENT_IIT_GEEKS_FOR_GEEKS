@@ -18,6 +18,9 @@ public class longest_common_prefix {
          {
         	 sum = temp ;
          }
+         
+         
+         ///
          return sum ;
 	}
 
